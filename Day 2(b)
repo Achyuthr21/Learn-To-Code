@@ -1,0 +1,16 @@
+Write a C Program to read an integer and find it's square root.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+  float a, answer;
+    scanf("%f", &a);
+    answer = sqrt(a);
+    printf("%.1f",answer);
+
+  return 0;
+}
+     
