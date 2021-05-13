@@ -1,0 +1,15 @@
+Write a C Program to convert Fahrenheit to Celsius.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    float fah;
+    scanf("%f",&fah);
+    printf("%.2f\n",(fah-32)*5/9);
+
+        
+    return 0;
+}
