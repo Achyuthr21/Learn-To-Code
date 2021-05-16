@@ -1,0 +1,27 @@
+Write a C Program to determine the factorial of a number
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+  
+int main()    
+{    
+ int k,fact=1,number;    
+    
+  scanf("%d",&number);    
+     if(number<0)
+    {
+        printf("ERROR");
+     }
+    else
+    {
+        for(k=1;k<=number;k++)
+    {    
+      fact=fact*k;    
+  }    
+  printf("%d",fact); 
+    }
+   
+    
+return 0;  
+}   
