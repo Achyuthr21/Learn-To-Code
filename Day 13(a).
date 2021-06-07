@@ -1,0 +1,21 @@
+Write a program in C to Find the Frequency of Characters.
+  #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    char arr[100],ch;
+    int number=0;
+    fgets(arr,sizeof(arr),stdin);
+    scanf("%c",&ch);
+    for (int i=0;arr[i]!='\0';++i) 
+    {
+        if (ch==arr[i])
+            ++number;
+    }
+     printf("%d",number);
+    
+    return 0;
+}
